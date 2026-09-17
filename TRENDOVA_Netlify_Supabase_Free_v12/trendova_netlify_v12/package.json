@@ -1,0 +1,17 @@
+{
+  "name": "trendova-fullstack",
+  "version": "12.0.0",
+  "private": true,
+  "description": "TRENDOVA — Predictive Customer Intelligence for F&B SMEs (Netlify + Supabase Postgres)",
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "start": "node local-server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "pg": "^8.16.3"
+  }
+}
